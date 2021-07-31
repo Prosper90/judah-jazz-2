@@ -407,17 +407,20 @@ Assigned to: Theme Forest
 
 		// Scrollbar
 		$(".ms_nav_wrapper").mCustomScrollbar({
-			theme:"minimal"
-    
-		});
-
-    $(".music-contain").mCustomScrollbar({
-			theme:"minimal"
+			theme:"minimal",
+      setHeight:345
 
 		});
 
-    $(".image-contain").mCustomScrollbar({
-      theme:"minimal"
+    $(".main-body").mCustomScrollbar({
+			theme:"minimal",
+      setHeight:500
+
+		});
+
+    $(".ms_weekly_wrapper").mCustomScrollbar({
+      theme:"minimal",
+      setHeight:500
 
     });
 
@@ -453,4 +456,24 @@ Assigned to: Theme Forest
         }, 600);
         return false
     });
+
+
+
+
+    //player_mid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 })(jQuery);
