@@ -464,6 +464,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 100px;
 }
 
 .img-thumbnail {
@@ -548,6 +549,8 @@ pre code {
   .container {
     max-width: 720px;
   }
+
+
 }
 
 @media (min-width: 992px) {
@@ -810,6 +813,8 @@ pre code {
 }
 
 @media (min-width: 576px) {
+
+  
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;

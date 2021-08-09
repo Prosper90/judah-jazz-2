@@ -44,7 +44,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
-	background-color: #EBECF0;
+	background-color: #f6f9fb;
   color: #000;
 	overflow-y: hidden;
 }
@@ -1268,7 +1268,7 @@ ul.more_option li a:hover .opt_icon .icon_share {
 .main-body-row{
  height: 100%;
  width: 90%;
-
+ background-color: #f7f7f700;
 }
 
 
@@ -1286,6 +1286,11 @@ ul.more_option li a:hover .opt_icon .icon_share {
 	height: 100%;
 }
 
+.member_name{
+	padding-top: 12px;
+	padding-left: 10px;
+}
+
 .ms_weekly_wrapper .ms_heading {
 	margin-bottom: 10px;
 }
@@ -1297,6 +1302,7 @@ ul.more_option li a:hover .opt_icon .icon_share {
 }
 .weekly_left {
 	float: left;
+	padding-top: 20px;
 }
 .weekly_right {
 	float: right;
@@ -5127,6 +5133,14 @@ h2.widget-title:after {
 	}
 }
 @media(max-width:992px) {
+
+	.main-body-row{
+	 height: 100%;
+	 width: 100%;
+	 background-color: #f7f7f700;
+	 padding-left: 27px;
+	}
+
 	.padder_top90 {
 		padding-top: 50px !important;
 	}
@@ -5864,6 +5878,34 @@ h2.widget-title:after {
 	}
 }
 @media (max-width: 767px) and (orientation: landscape) {
+
+	.main-body-row{
+	 height: 100%;
+	 width: 100%;
+	 background-color: #f7f7f700;
+	 padding-left: 30px;
+	}
+
+	body{
+		overflow-y: scroll;
+	}
+
+	.ms_weekly_wrapper {
+		top: -60px;
+		overflow-y: none;
+		background-color: #e0eaec;
+		color: #788188;
+	}
+
+
+
+
+	.main-body {
+		overflow-y: none;
+		overflow-x: hidden;
+	}
+
+
 	.ms_lang_popup .modal-content p {
 		margin-bottom: 10px;
 	}
@@ -5959,6 +6001,28 @@ h2.widget-title:after {
 	}
 }
 @media(max-width:667px) {
+
+  body{
+		overflow-y: scroll;
+	}
+
+	.ms_weekly_wrapper {
+		top: -60px;
+		overflow-y: none;
+		background-color: #e0eaec;
+		color: #788188;
+	}
+
+
+
+
+	.main-body {
+	  overflow-y: none;
+		overflow-x: hidden;
+	}
+
+
+
 	.swiper-button-prev4.slider_nav_prev {
 		top: 63%;
 	}
@@ -6110,6 +6174,9 @@ h2.widget-title:after {
 	}
 }
 @media(max-width:480px) {
+
+
+
 	.ms_profile .ms_top_right {
 		width: 100%;
 		padding-top: 10px;
